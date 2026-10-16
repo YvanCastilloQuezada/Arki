@@ -1,0 +1,33 @@
+{
+  "exampleId": "EJEMPLO-063",
+  "title": "Ejemplo 063 · SNA-FRE",
+  "commandName": "SNA-FRE",
+  "category": "snapshot",
+  "syntax": "SNA-FRE <snapshot_id>",
+  "command": "SNA-FRE SNAP-001",
+  "arguments": [
+    {
+      "name": "snapshot_id",
+      "required": true,
+      "type": "string",
+      "exampleValue": "SNAP-001"
+    }
+  ],
+  "mode": "APPLY",
+  "repeatability": "DETERMINISTIC_INPUT_EXAMPLE",
+  "executionBoundary": "CATALOG_EXAMPLE_ONLY",
+  "humanReviewRequired": true,
+  "expectedOutcome": "Requires an authorized SICL/Core or external evidence context.",
+  "learningObjective": "Aprender la sintaxis y el límite operativo de SNA-FRE.",
+  "provenance": [
+    "commands-catalog.json",
+    "ARKI-PARAMETRIC-RUNTIME",
+    "user-authorized-example-corpus"
+  ],
+  "unknowns": [
+    "Los efectos reales dependen del Project State, evidencia disponible y permisos del entorno."
+  ],
+  "artifacts": [],
+  "compactCommand": "SNA-FRE",
+  "legacyCommand": "/SNAPSHOT FREEZE"
+}

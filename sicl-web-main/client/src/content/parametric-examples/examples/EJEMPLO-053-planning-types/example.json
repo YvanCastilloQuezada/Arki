@@ -1,0 +1,26 @@
+{
+  "exampleId": "EJEMPLO-053",
+  "title": "Ejemplo 053 · PLA-TYP",
+  "commandName": "PLA-TYP",
+  "category": "planning",
+  "syntax": "PLA-TYP",
+  "command": "PLA-TYP",
+  "arguments": [],
+  "mode": "APPLY",
+  "repeatability": "DETERMINISTIC_INPUT_EXAMPLE",
+  "executionBoundary": "CATALOG_EXAMPLE_ONLY",
+  "humanReviewRequired": true,
+  "expectedOutcome": "Requires an authorized SICL/Core or external evidence context.",
+  "learningObjective": "Aprender la sintaxis y el límite operativo de PLA-TYP.",
+  "provenance": [
+    "commands-catalog.json",
+    "ARKI-PARAMETRIC-RUNTIME",
+    "user-authorized-example-corpus"
+  ],
+  "unknowns": [
+    "Los efectos reales dependen del Project State, evidencia disponible y permisos del entorno."
+  ],
+  "artifacts": [],
+  "compactCommand": "PLA-TYP",
+  "legacyCommand": "/PLANNING TYPES"
+}

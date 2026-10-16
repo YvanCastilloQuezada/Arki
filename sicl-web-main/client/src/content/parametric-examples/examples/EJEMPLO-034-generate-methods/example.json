@@ -1,0 +1,26 @@
+{
+  "exampleId": "EJEMPLO-034",
+  "title": "Ejemplo 034 · GEN-MET",
+  "commandName": "GEN-MET",
+  "category": "generate",
+  "syntax": "GEN-MET",
+  "command": "GEN-MET",
+  "arguments": [],
+  "mode": "EXPLORE",
+  "repeatability": "DETERMINISTIC_INPUT_EXAMPLE",
+  "executionBoundary": "CATALOG_EXAMPLE_ONLY",
+  "humanReviewRequired": true,
+  "expectedOutcome": "Produces or describes a bounded proposal; native host execution is not claimed.",
+  "learningObjective": "Aprender la sintaxis y el límite operativo de GEN-MET.",
+  "provenance": [
+    "commands-catalog.json",
+    "ARKI-PARAMETRIC-RUNTIME",
+    "user-authorized-example-corpus"
+  ],
+  "unknowns": [
+    "Los efectos reales dependen del Project State, evidencia disponible y permisos del entorno."
+  ],
+  "artifacts": [],
+  "compactCommand": "GEN-MET",
+  "legacyCommand": "/GENERATE METHODS"
+}
